@@ -100,8 +100,11 @@ public class Menu {
         System.out.println("5) Remove duplicates");
         System.out.println("6) Monthly report");
         System.out.println("7) Overall report");
+        System.out.println("8) Import CSV");
+        System.out.println("9) Export CSV");
         System.out.println("0) Exit");
     }
+
 
     private void add() {
         LocalDate date = reader.readDate("Date (YYYY-MM-DD): ");
